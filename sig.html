@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login to Site</title>
+    <link rel="stylesheet" href="log.css">
+    <style>
+        body{
+        background: url("https://img.freepik.com/premium-photo/colorful-powder-explosion-white-background_44314-1651.jpg");
+           background-size: 100% 100%;
+           background-repeat: no-repeat;
+           background-attachment: fixed;
+        }
+        .na{
+    font-family: 'Brush Script MT',cursive;
+    font-style: oblique;
+    color: black;
+    transition: 0.3s;
+    font-size: large;
+}
+            .na:hover{
+                scale:1.3;
+                filter: drop-shadow(7px 7px 3px red); 
+                margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="na">
+    <center><h1 style="font-size:2vw;">Sign Up</h1></center>
+</div>
+    <form action="success.html" class="form">
+        <div class="ouput">
+            <center>Sigh Up</center>
+            <center><img src="https://t4.ftcdn.net/jpg/04/60/71/01/360_F_460710131_YkD6NsivdyYsHupNvO3Y8MPEwxTAhORh.jpg" height="7%" width="7%"></center>
+            <center>firstname:<br><input required type="text" id="firstname" placeholder=" enter your firstname"></center>
+            <center>lastname:<br><input required type="text" id="lastnamename" placeholder="enter your lastname"></center>
+            <center>email:<br><input required type="email" id="username" placeholder="enter your email"></center>
+            <center>Date of Birth:<br><input required type="date of birth" id="Date of birth" placeholder="DD/MM/YY"></center>
+            <center>phone no:<br><input required type="text" id="phone number" placeholder=" enter your mobile number"></center>
+            <center>address:<br><input required type="text" id="address" placeholder="enter your address"></center>
+            
+            <center><select name="gender"required>
+                <option value="female">female</option>
+                <option value="male">male</option>
+                <option value="other">other</option>
+            </select></center>
+            <center><input type="submit" value="login"></center>
+        </div>
+    </form>
+
+</body>
+</html>

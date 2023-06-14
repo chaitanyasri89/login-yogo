@@ -1,0 +1,119 @@
+.pic{
+background: url(https://wallpapercrafter.com/sizes/2560x1440/52461-giraffe-animals-hd-nature-sunset-forest-trees-4k-hd-sky-birds-rhinoceros-rhino.jpg);
+height: 700px;
+    width: 1600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background 1s linear;
+}
+    .pic:hover{
+        background: url(https://thumbs.dreamstime.com/b/sunrise-sunset-love-romance-birds-95869871.jpg);
+        height: 700px;
+            width: 1600px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            animation:picture 1s infinite;
+        }
+        @keyframes picture {
+            0%{
+                background: url("https://c4.wallpaperflare.com/wallpaper/431/451/684/the-most-beautiful-picture-of-nature-wallpaper-preview.jpg");
+                height: 700px;
+                width: 1600px;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            50%{
+                background: url("https://cdn.pixabay.com/photo/2015/11/16/16/28/bird-1045954_640.jpg");
+                height: 700px;
+                width: 1600px;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            100%{
+                background: url("https://thumbs.dreamstime.com/b/sunrise-sunset-love-romance-birds-95869871.jpg");
+                height: 700px;
+                width: 1600px;
+                background-repeat: no-repeat;
+                background-size: cover;    
+            }
+        }
+        .header{
+            display:flex;
+            height: 30px;
+            float:left;
+            font-size:xx-large;
+            color: white;
+        }
+        .nav{
+            padding: 20px;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        } 
+        hr{
+            margin-top: 25px;
+            height: 30px;
+        }
+        .txt{
+            font-size: xx-large;
+            position: absolute;
+            margin-top: 25%;
+            margin-left: 35%;
+            color: white;
+        }
+
+
+
+
+        .img{
+        background: url("https://a-static.besthdwallpaper.com/reflection-of-yellow-blue-and-pink-color-smoke-on-black-background-wallpaper-1366x768-96504_46.jpg");
+           background-size: 100% 100%;
+           background-repeat: no-repeat;
+           background-attachment: fixed;
+        }
+        .form{
+            
+            width: 200px;
+            height: 320px;
+            border: 2px solid black;
+            margin-top: 30px;
+            margin-left:650px;
+            box-shadow: 5px 5px 5px 5px;
+            background-color: wheat;
+            color: rgb(0, 191, 255);
+        }
+        .input{
+            margin-top: 200px;
+            margin-left: 480px;
+            /*margin: 480px;*/
+            border: solid;
+            border-color: white;
+            width: 400px;
+            height: 200px;
+        }
+        #btn{
+            margin-top: 15px;
+            color: black;
+        }
+        .thanks{
+            width: 500px;
+            height: 300px;
+            border: 2px solid white;
+            border-radius: 35%;
+            position: relative;
+            margin:auto;
+            margin-left: 40%;
+            margin-top: 12.5%;
+        }
+        .txt1{
+            margin-top: 25%;
+            margin-left: 23%;
+            /*color: black;*/
+            width: 300px;
+            border: solid;
+            border-color: black;
+            font-size: x-large;
+            transition: color 1s linear;
+            /*background-color: rgb(59, 10, 221);*/
+        }

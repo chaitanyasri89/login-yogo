@@ -1,0 +1,59 @@
+
+.sum{
+    background-color:black;
+    display: flex;
+    justify-content: space-evenly;
+    /*opacity: 0.5;*/
+
+}
+.g{
+    display:flex
+}
+.g:hover{
+    scale:0.9;
+}
+.r{
+    background-color: black;
+}
+.v{
+    scale:0.9;
+    width: 60%;
+    margin-left: 20%;
+    border-style: double;
+  border-color: black;
+}
+.t{
+   width: 97%;
+    border-style: double;
+  border-color: black;
+}
+.u{
+    width: 75%;
+    scale:0.9;
+    border-style: double;
+  border-color: black;
+}
+.z:hover{
+    scale:1.3;
+    filter: drop-shadow(7px 7px 3px red);
+}
+.y:hover{
+    scale:1.3;
+    filter: drop-shadow(7px 7px 3px blue);
+}
+.f{
+    font-family: 'Brush Script MT',cursive;
+    font-style: oblique;
+    color: black;
+    transition: 0.3s;
+    font-size: large;
+}
+.f:hover{
+    scale:1.3;
+    filter: drop-shadow(7px 7px 3px red);
+}
+.x{
+    border-style: double;
+  border-color: black;
+}
+
